@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="header">
+    <div class="menu container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="logo">
+        </div>
+
+        <!-- NAV -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<div class="grid_proyectos">
+
+    <div class="card" onclick="mostrarTexto(this)">
+        <h3>Saber Pro</h3>
+        <p class="textoOculto" style="display: none;">
+            Página con juego interactivo para estudiar.
+        </p>
+    </div>
+
+    <div class="card" onclick="mostrarTexto(this)">
+        <h3>Calculadora</h3>
+        <p class="textoOculto" style="display: none;">
+            Calculadora hecha con JavaScript.
+        </p>
+    </div>
+
+</div>
+<script src="java.js"></script>
+</body>
+</html>
+
+
